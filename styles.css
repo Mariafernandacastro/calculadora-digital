@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    background: linear-gradient(to right, #a14276, #502b42);
 
 }
 
@@ -27,7 +27,7 @@ body {
 
 .output {
     grid-column: 1/-1;
-    background-color: rgba (0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .75);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -45,4 +45,8 @@ body {
     text-align: right;
 
 
+}
+
+.calculadora-grilla > button:hover {
+    background-color: rgba(255, 255, 255, .91);
 }
